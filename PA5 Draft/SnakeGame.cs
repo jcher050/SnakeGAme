@@ -94,7 +94,8 @@ namespace PA5_Draft
             Obstacles.Add(new LineSeg(new Point(1, GameFieldSize.Height-1), new Point(GameFieldSize.Width-1, GameFieldSize.Height-1)));
             Obstacles.Add(new LineSeg(new Point(GameFieldSize.Width-1, GameFieldSize.Height-1), new Point(GameFieldSize.Width-1, 1)));
             Obstacles.Add(new LineSeg(new Point(1, 1), new Point(GameFieldSize.Width - 1, 1)));
-            //Add extras obstacles 
+            //Add extras obstacles we will see
+
             Obstacles.Add(new LineSeg(new Point(150, 90), new Point(90, 150)));
             Obstacles.Add(new LineSeg(new Point(470, 90), new Point(530, 150)));
             Obstacles.Add(new LineSeg(new Point(90, 470), new Point(150, 530)));
